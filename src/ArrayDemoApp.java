@@ -24,7 +24,7 @@ public class ArrayDemoApp {
         System.out.println("sum2 = " + sum2);
 
         double sumFor = 0;
-        for (int i = 0; i < 5; i++){
+        for (int i = 0; i < articles.length; i++){
             sumFor = sumFor + articles[i];
         }
         System.out.println("sumFor= " + sumFor);
